@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -66,39 +63,7 @@ div {
 }
 #para
 {
-   font-family :Arial, Helvetica, sans-serif;
+   font-family: cursive;
    font-size: 20px;
    
 }
-</style>
-</head>
-
-<body> 
-
-<ul>
-<li><a class="active" href="index.html">Home</a></li>
- 
-  <li><a href="skill.html">Skills</a></li>
-  <li><a href="resume.html"> Resume</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
-
-
-
-
-         <img src="img.png" align="center" style="width:300px">
-    
-        <h1 align="center">Hello...!!!!</h1>
-        <h2 align="center">I'm Manisha Joshi...</h2>
-    
-<div align="center">
-
-<p id ="para"> I am a Computer Science graduate from Mody University with strong skills in web development.
-My goal is to be part of a well-established company so that I can put all my energy into learning and  enhancing       my skill. </p>
-
-
-</div>
-
-
-</body>
-</html>
