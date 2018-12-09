@@ -4,7 +4,7 @@
 .container {
   width: 100%;
   background-color:white;
-  border:1px solid #01bdbe;
+  border:1px solid #8ddede;
   margin-left:20px;
 }
 body{
@@ -120,13 +120,14 @@ padding-left:50px
     height:10%;
     padding: 13% 0%;
     border-radius: 50%;
-    background:#4ab4b5;
+    background:#45aeb9;
    color: white;
       
    font-size: 20px;
-   text-align: center;
+   text-align:center;
    margin-left:40px; 
    display: inline-block;
+   line-height: 10px;
 
 }
 h3{
@@ -140,10 +141,13 @@ color: black;
 font-weight: bold;s
 
 }
+h1
+{
+  padding-left: 5px;
+}
 
 
-
-.html {width: 90%; background-color:#01bdbe;}
-.css {width: 80%; background-color:#01bdbe;}
-.js {width: 75%; background-color: #01bdbe;}
-.php {width: 80%; background-color: #01bdbe;}
+.html {width: 90%; background-color:#8ddede;}
+.css {width: 80%; background-color:#8ddede;}
+.js {width: 70%; background-color: #8ddede;}
+.php {width: 50%; background-color:#8ddede;}
