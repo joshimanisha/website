@@ -1,153 +1,174 @@
-
-* {box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 .container {
-  width: 100%;
-  background-color:white;
-  border:1px solid #8ddede;
-  margin-left:20px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #8ddede;
+    margin-left: 20px;
 }
-body{
-  
-  
-  width:1300px;
-  height:600px;
-   background-color:#ebecf0;
+
+body {
+
+
+    width: 1300px;
+    height: 600px;
+    background-color: #ebecf0;
 }
 
 .skills {
-  text-align: right;
-  padding-right: 20px;
-  line-height: 28px;
-  color: white;
-  
+    text-align: right;
+    padding-right: 20px;
+    line-height: 28px;
+    color: white;
+
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    color:black;
-    margin-left:50px;
+    color: black;
+    margin-left: 50px;
     margin-bottom: 10px;
 }
 
 li {
     float: left;
     font-weight: bold;
-    font-size:19px;
+    font-size: 19px;
 }
+
 li a {
     display: block;
-    
+
     text-align: center;
-    color:#00a3ef;
+    color: #00a3ef;
     padding: 15px 17px;
     text-decoration: none;
-      
+
 }
 
 li a:hover {
     background-color: aqua;
-    color:white;
+    color: white;
 }
 
-p{
-  margin-left:8px;
-  color:white;
-  font-size:18px;
+p {
+    margin-left: 8px;
+    color: white;
+    font-size: 18px;
 }
-.practice
-{
-  width:600px;
-   height:480px;
-  display:inline-block;
-background-color:#1abc9c; 
-margin-left:45px;
-margin-top: 50px;
+
+.practice {
+    width: 600px;
+    height: 480px;
+    display: inline-block;
+    background-color: #1abc9c;
+    margin-left: 45px;
+    margin-top: 50px;
 
 }
+
 table {
     border-collapse: collapse;
 
 }
 
-table, td {
+table,
+td {
     border: 1px solid black;
-    margin-left:100px;
+    margin-left: 100px;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom:15px;
+    padding-bottom: 15px;
     text-align: center;
-    
-}
-td{
-  color:blue;
-}
-.practice1
-{
-  
-  width:600px;
-  height:480px;
-  position:absolute; ;
-  display: inline-block;
-background-color: #1abc9c;
-margin-top:50px;
-margin-left:0px;
-padding-top:0px;
-padding-left:50px
 
 }
 
-
-
-.a1
-{
-  color:blue;
-  height:100px;
-  width:430px;
-  margin-left:20px;
-  padding-top: 2px;
-  margin-top:50px;
-  display: inline-block;
-  
+td {
+    color: blue;
 }
 
-.circle
-{
-  width: 26%;
-    height:10%;
+.practice1 {
+
+    width: 600px;
+    height: 480px;
+    position: absolute;
+    ;
+    display: inline-block;
+    background-color: #1abc9c;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-left: 50px
+}
+
+
+
+.a1 {
+    color: blue;
+    height: 100px;
+    width: 430px;
+    margin-left: 20px;
+    padding-top: 2px;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+
+.circle {
+    width: 26%;
+    height: 10%;
     padding: 13% 0%;
     border-radius: 50%;
-    background:#45aeb9;
-   color: white;
-      
-   font-size: 20px;
-   text-align:center;
-   margin-left:40px; 
-   display: inline-block;
-   line-height: 10px;
+    background: #45aeb9;
+    color: white;
+
+    font-size: 20px;
+    text-align: center;
+    margin-left: 40px;
+    display: inline-block;
+    line-height: 10px;
 
 }
-h3{
-  width:100px;
-  height:80px;
-  display: inline-block;
-  font-size:20px;
-  margin-top:0px;
-padding-right: 3px;
-color: black;
-font-weight: bold;s
 
-}
-h1
-{
-  padding-left: 5px;
+h3 {
+    width: 100px;
+    height: 80px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-right: 3px;
+    color: black;
+    font-weight: bold;
+    s
 }
 
+h1 {
+    padding-left: 5px;
+}
 
-.html {width: 90%; background-color:#8ddede;}
-.css {width: 80%; background-color:#8ddede;}
-.js {width: 70%; background-color: #8ddede;}
-.php {width: 50%; background-color:#8ddede;}
+
+.html {
+    width: 90%;
+    background-color: #8ddede;
+}
+
+.css {
+    width: 80%;
+    background-color: #8ddede;
+}
+
+.js {
+    width: 70%;
+    background-color: #8ddede;
+}
+
+.php {
+    width: 50%;
+    background-color: #8ddede;
+}
