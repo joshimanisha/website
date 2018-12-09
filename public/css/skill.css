@@ -33,12 +33,14 @@ ul {
     color: black;
     margin-left: 50px;
     margin-bottom: 10px;
+    margin-top: 7px;
 }
 
 li {
     float: left;
     font-weight: bold;
     font-size: 19px;
+    margin-right: 10px;
 }
 
 li a {
@@ -46,7 +48,7 @@ li a {
 
     text-align: center;
     color: #00a3ef;
-    padding: 15px 17px;
+    padding: 14px 16px;
     text-decoration: none;
 
 }
@@ -152,6 +154,11 @@ h1 {
     padding-left: 5px;
 }
 
+.active
+{
+  background-color: #98c7e8;
+  color: white;
+}
 
 .html {
     width: 90%;
