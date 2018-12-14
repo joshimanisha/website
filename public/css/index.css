@@ -1,193 +1,233 @@
-ul {
-    list-style-type: none;
-
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-    margin-left: 40px;
-    width: 600px;
-
-
+.nav {
+    margin-top: 20px;
+    font-family: none;
 }
 
-li {
-    float: left;
-    /*margin-right: 20px;*/
-    float: left;
-    background-color: #1abc9c;
-    background-color: #ebecf0;
-    margin-top: 0px;
-
-    font-weight: bold;
-    font-size: 19px;
-
-
+.nav-link {
+    color: #8a8f94;
+    padding: 10px 20px;
+    font-size: 20px;
 }
 
-
-
-
-li a {
-    display: block;
-    color: #00a3ef;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.nav-link:hover {
+    color: #000;
 }
 
-li a:hover {
-    background-color: aqua;
+nav .active {
+    color: #000;
+}
+
+.body {
+    background-color: white;
+}
+
+main,
+main a {
+    background-color: #53bd9d;
     color: white;
+}
+
+.picture {
+    width: 300px;
+}
+
+i {
+    color: black;
+    padding: 10px;
 }
 
 h1 {
-
     font-family: cursive;
     font-size: 50px;
-    float: right;
-    margin-right: 480px;
-    margin-top: 30px;
-    width: 350px;
-    height: 200px;
-    color: white;
-    margin-left: 40px;
-    padding-left: 10px;
 }
 
-body {
-    background-color: #ebecf0;
-
-
-    width: 1320px;
-    margin-left: 20px;
-    margin-top: 10px;
-
-    background-color: #ebecf0;
-
-
-
-}
-
-html {
-    background-color: #ebecf0;
-}
-
-#para {
+.tagline {
     font-family: cursive;
+    font-size: 22px;
+    margin-left: -48px;
+    margin-top: 60px;
+    line-height: 40px;
+}
+@media only screen and (max-width: 1220px) {
+  .tagline {
+         padding: 5px;
+         text-align: center;
+         margin:0 auto;
+  }
+  h1
+  {
+     text-align: center;
+         margin:0 auto;
+  }
+  .profile {
+    margin-top: -20px !important;
+  }
+
+  
+}
+
+
+.profile {
+    font-size: 22px;
+}
+
+.profile .info {
+    color: #fff;
     font-size: 20px;
-    width: 640px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-left: 300px;
-    color: white;
-
+    padding: 10px;
 }
 
-.image {
-    width: 100px;
-    height: 70px;
+/* skill page stylesheet */
 
-
+.skills {
+    padding: 20px;
 }
 
-.a {
-    height: 70px;
-
-
+.html {
+    width: 85%;
+    background-color: #8ddede;
 }
 
-.image1 {
-    width: 100px;
-    height: 60px;
-    padding-bottom: 2400px;
-    margin-bottom: 400px;
-
-
+.javascript,
+.php {
+    width: 70%;
+    background-color: #8ddede;
 }
 
-img {}
-
-.info {
-    width: 260px;
-    height: 185px;
-
-    margin-left: 960px;
-    margin-top: 65px;
-    margin-bottom: 5px;
-    position: absolute;
-    padding-left: 0px;
-
-
-
-
+.mean {
+    width: 50%;
+    background-color: #8ddede;
 }
 
-.info1 {
+.circle {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
     font-size: 20px;
-    display: inline-block;
-    color: white;
-    margin: 7px;
-    text-decoration: none;
-}
-
-.button {
-    background-color: black;
-    color: white;
-    padding: 15px;
-    background-color: white;
-    color: black;
-    border: 1px solid aqua;
-    font-family: sans-serif;
-    text-decoration: none;
-    font-size: 14px;
+    background-color: #48aeb9;
+    line-height: 110px;
     text-align: center;
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 30px;
+}
+
+.field {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 112px;
+    text-align: right;
 
 }
 
-.button:hover {
-    background-color: black;
-    color: white;
+.progress {
+    height: 25px;
 }
 
-.practice1 {
-    border: 1px solid #ebecf0;
-    width: 1240px;
-    height: 480px;
-    margin-top: 30px;
-    margin-left: 35px;
-    background-color: #1abc9c;
+
+
+.lang {
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1220px) {
+    .field {
+        text-align: center;
+    }
+    .circle {
+        margin: 0 auto;
+    }
+}
+
+/* resume style css*/
+
+.project {
+    margin-left: 10%;
+
+}
+
+.year {
+    background-color: #43a5bb;
+    width: 130px;
+    height: 110px;
+    line-height: 130px;
+    /*border:1px solid red;*/
+    text-align: center;
+    display: inline-block;
+
+    /*position: relative;*/
+    z-index: 7;
+
+}
+
+.title {
+    max-width: 900px;
+    min-height: 122px;
+    background-color: white;
+    color: blue;
+    display: inline-block;
+    /* border:1px solid blue;*/
+    margin-top: 11px;
+    padding-top:8px;
+    /*position: absolute;*/
+    /*z-index: 3;*/
+    padding-left: 35px;
+    
+}
+
+.description {
+    color: black;
+    margin-left: 10px;
+    padding-left: -5px;
+    padding-top: 15px;
 
 
 }
 
-.practice {
-    border: 1px solid #ebecf0;
-    height: 530px;
-    margin-top: 30px;
-    margin-left: 0px;
-
-    background-color: #ebecf0;
-    margin-top: 7px;
-
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-right: 16px solid grey;
+    transform: rotate(43deg);
+    margin-top: 1px;
+    margin-left: -38px;
 
 }
 
-div {
 
-    margin-top: 0px;
+@media only screen and (max-width: 1220px) {
+    .triangle {
+        display: none;
+    }
+    .title {
+        max-width: 600px;
+    }
 }
 
-#p1 {
-    color: white;
-
-    width: 300px;
-    height: 200px;
+@media only screen and (max-width: 860px) {
+    .title {
+        /*margin: 0 auto;*/
+        max-width: 300px;
+        text-align: center;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .description {
+        margin: : 0px;
+    }
 }
-.active
-{
-    background-color: #98c7e8;
-    color: white;
+
+@media only screen and (max-width: 400px) {
+    .title {
+        /*margin: 0 auto;*/
+        max-width: 200;
+        text-align: center;
+        padding-left: 0px;
+
+    }
+    .description {
+        margin: 0px;
+    }
 }
