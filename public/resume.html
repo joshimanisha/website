@@ -1,95 +1,74 @@
 <html>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="css/resume.css">
-    <style>
-    table {
-        border-collapse: collapse;
-    }
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </head>
 
-    table,
-    td {
-        border: 1px solid black;
-        margin-left: 10px;
-        padding-top: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 8px;
-
-    }
-    </style>
-</head>
-
-<body>
-    <div id="prac">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="skill.html">Skills</a></li>
-            <li><a class="active" href="resume.html"> Experience</a></li>
-        </ul>
-        <div id="container">
-            <div id="menu">
-                <div id="b1">
-                    <div id="c1">
-                        <div id="color">
-                            Quiz Application<br><br>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <nav class="nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="skill.html">Skills</a>
+                    <a class="nav-link active" href="resume.html">Experiences</a>
+                </nav>
+            </header>
+            <main>
+                <div class="container-fluid py-5 text-center">
+                    <div class="project pb-5 row">
+                        <div class="year">Nov 2018 </div>
+                        <div class="title">
+                            Quiz Application
+                            <div class="description">
+                                I have built a very simple quiz application using Angularjs which includes authentication module and features like a timer, result summary, etc.
+                            </div>
+                           <!-- <div class="triangle"> </div> -->
                         </div>
-                        I have built a very simple quiz application using Angularjs which includes authentication module and features like a timer, result summary, etc.
                     </div>
-                </div>
-                <div id="a1">
-                    <div id="color1">Nov 2018
-                    </div>
-                </div>
-                <div class="triangle-left">
-                </div>
-            </div>
-            <div id="menu">
-                <div id="b1">
-                    <div id="c1">
-                        <div id="color">
-                            Real-time Object Detection System <br><br>
+                    <div class="project pb-5 row">
+                        <div class="year">May-July 2017 </div>
+                        <div class="title">
+                            Real-time Object Detection System
+                            <div class="description">
+                                We built a framework in which static camera can detect real-time object and track it in defined frame. Location and coordinates of an object are shown. And when it is moved, its path is tracked even if the object gets disappeared.
+                            </div>
+                           <!-- <div class="triangle"> </div>-->
                         </div>
-                        We built a framework in which static camera can detect real-time object and track it in defined frame. Location and coordinates of an object are shown. And when it is moved, its path is tracked even if the object gets disappeared.
+                    </div>
+                    <div class="project pb-5 row">
+                        <div class="year">May-July 2016 </div>
+                        <div class="title">
+                            Data Science in Python
+                            <div class="description">
+                                We have developed a program which can suggest a suitable title for a given article by calculating the frequency distribution of the words and then finding the most occurring words.
+                            </div>
+                            <!--<div class="triangle"> </div>-->
+                        </div>
+                    </div>
+                    <div class="project pb-5 row">
+                        <div class="year">May-July 2015 </div>
+                        <div class="title">
+                            Student Record
+                            <div class="description">
+                                I have built a very simple quiz application using Angularjs which includes authentication module and features like a timer, result summary, etc.
+                            </div>
+                            <!--<div class="triangle"> </div> -->
+                        </div>
                     </div>
                 </div>
-                <div id="a1">
-                    <div id="color1">May-July 2017
-                    </div>
+            </main>
+            <footer class="footer">
+                <div class="container text-center">
+                    <a href="https://github.com/joshimanisha/website" class="text-muted">
+                    <span>View source</span><i class="fa fa-github fa-lg"></i>
+                </a>
                 </div>
-                <div class="triangle-left">
-                </div>
-            </div>
-            <div id="menu">
-                <div id="b1">
-                    <div id="c1">
-                        <div id="color">Data Science in Python<br><br>
-                        </div> We have developed a program which can suggest a suitable title for a given article by calculating the frequency distribution of the words and then finding the most occurring words.
-                    </div>
-                </div>
-                <div id="a1">
-                    <div id="color1">May-July 2016
-                    </div>
-                </div>
-                <div class="triangle-left">
-                </div>
-            </div>
-            <div id="menu">
-                <div id="b1">
-                    <div id="c1">
-                        <div id="color">Student Record<br><br>
-                        </div>Developed a Web Portal for Colleges to record student information and generate the reports.
-                    </div>
-                </div>
-                <div id="a1">
-                    <div id="color1">May-July 2015
-                    </div>
-                </div>
-                <div class="triangle-left">
-                </div>
-            </div>
+            </footer>
         </div>
-    </div>
-</body>
 
 </html>

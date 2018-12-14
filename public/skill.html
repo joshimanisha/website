@@ -1,56 +1,107 @@
-<!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="css/skill.css">
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </head>
 
-<body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="skill.html">Skills</a></li>
-        <li><a href="resume.html">Experience</a></li>
-    </ul>
-    <div class="practice">
-        <h1>My Skills</h1>
-        <p>HTML/CSS</p>
-        <div class="container">
-            <div class="skills html">90%</div>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <nav class="nav">
+                    <a class="nav-link" href="index.html">Home </a>
+                    <a class="nav-link active" href="skill.html">Skills </a>
+                    <a class="nav-link" href="resume.html">Experience </a>
+                </nav>
+            </header>
+            <main>
+                <div class="row MY-4">
+                    <div class="col-xl-6">
+                        <div class="skills">
+                            <div class="lang py-2">HTML/CSS</div>
+                            <div class="progress">
+                                <div class="progress-bar html">85%</div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="lang py-2">Javascript</div>
+                            <div class="progress">
+                                <div class="progress-bar javascript">70%</div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="lang py-2">PHP</div>
+                            <div class="progress">
+                                <div class="progress-bar php">70%</div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="lang py-2">MEAN</div>
+                            <div class="progress">
+                                <div class="progress-bar mean">50%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row py-md-4">
+                            <div class="col-md-6">
+                                <div class="field">Operating system </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row mx-auto">
+                                    <div class="col">
+                                        <div class="circle">MacOs</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="circle">Linux</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-md-4">
+                            <div class="col-md-6">
+                                <div class="field">Databases</div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row mx-auto">
+                                    <div class="col">
+                                        <div class="circle">MySQL</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="circle">MongoDB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4">
+                            <div class="col-md-6">
+                                <div class="field">Tools & Utilities</div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row mx-auto">
+                                    <div class="col">
+                                        <div class="circle">Git</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="circle">Photoshop</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </main>
+            <footer class="footer">
+                <div class="container text-center">
+                    <a href="https://github.com/joshimanisha/website" class="text-muted">
+                <span>View source</span><i class="fa fa-github fa-lg"></i>
+                </a>
+                </div>
+            </footer>
         </div>
-        <p>JavaScript</p>
-        <div class="container">
-            <div class="skills css">80%</div>
-        </div>
-        <p>PHP</p>
-        <div class="container">
-            <div class="skills js">70%</div>
-        </div>
-        <p>MEAN</p>
-        <div class="container">
-            <div class="skills php">50%</div>
-        </div>
-    </div>
-    <div class="practice1">
-        <div class="a1">
-            <h3>Operating system  </h3>
-            <div class="circle">MacOs</div>
-            <div class="circle">Linux
-            </div>
-        </div>
-        <div class="a1">
-            <h3>Database  </h3>
-            <div class="circle">MySQL
-            </div>
-            <div class="circle">MongoDB
-            </div>
-        </div>
-        <div class="a1">
-            <h3>Tools & Utilities  </h3>
-            <div class="circle">Git</div>
-            <div class="circle">Photoshop
-            </div>
-        </div>
-    </div>
-</body>
+    </body>
 
 </html>
